@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="180" errors="0" failures="12" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2020-12-26" time="16:09:04">
+  <environment user-domain="" machine-name="283e481dbed9" user="root" clr-version="Unknown" cwd="/tests" os-version="4.19.128-microsoft-standard" platform="Linux" nunit-version="2.5.8.0" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Failure" success="False" time="94.1399" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="/tests/Modules/Tests/Build.Tests.ps1" executed="True" result="Success" success="True" time="5.9526" asserts="0" description="/tests/Modules/Tests/Build.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Script code is valid" executed="True" result="Success" success="True" time="4.0787" asserts="0" description="Script code is valid">
+            <results>
+              <test-suite type="TestFixture" name="Script code is valid.Validate script code" executed="True" result="Success" success="True" time="4.0643" asserts="0" description="Script code is valid.Validate script code">
+                <results>
+                  <test-suite type="ParameterizedTest" name="Script code is valid.Validate script code.Files are proper PS" executed="True" result="Success" success="True" time="3.9993" asserts="0" description="Files are proper PS">
+                    <results>
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Core/Public/ConvertTo-HashTableString.ps1)" time="0.1656" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Core/Public/convertTo-TimeSpan.ps1)" time="0.0239" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Core/Public/Get-ShellFolder.ps1)" time="0.0245" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Core/Public/Invoke-Beep.ps1)" time="0.024" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Core/Public/Invoke-UnixLineEndings.ps1)" time="0.0236" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Core/Public/Register-PSRepositoryFix.ps1)" time="0.0274" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Core/Public/RunISE-DTWBeautifyScript.ps1)" time="0.0257" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Core/Public/Set-ScriptSignature.ps1)" time="0.0223" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Core/Public/Start-MyProcess.ps1)" time="0.0273" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Core/FC_Core.psm1)" time="0.0251" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Private/AssistDataInmport.ps1)" time="0.0337" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Private/Get-Type.ps1)" time="0.0309" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Close-CrystalReport.ps1)" time="0.035" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Compare-JoinedObjectMembers.ps1)" time="0.0478" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Deploy-SQLDatabaseDacPac.ps1)" time="0.0668" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Edit-CRDataSourceConnection.ps1)" time="0.0325" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Export-CRMetadata.ps1)" time="0.0275" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Export-ExcelToTxt.ps1)" time="0.0259" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Get-CRDataSource.ps1)" time="0.0221" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Get-DataImportException.ps1)" time="0.0239" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Get-DataImportFile.ps1)" time="0.0206" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Get-DataImportFileSummary.ps1)" time="0.0199" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Get-JobPrefix.ps1)" time="0.0198" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Get-JobsCompleteFlag.ps1)" time="0.0224" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Get-MyJobs.ps1)" time="0.0286" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Get-SQLServerDataTypeFromDataColumn.ps1)" time="0.0293" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Get-SQLServerDataTypeFromDataTable.ps1)" time="0.0292" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Get-SSASTabularDatabases.ps1)" time="0.03" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Get-SSISLogLevels.ps1)" time="0.0321" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Import-Excel.ps1)" time="0.0334" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Invoke-AddColumnsToDataTable.ps1)" time="0.0243" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Invoke-CrystalDecisionAssembliesLoad.ps1)" time="0.0214" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Invoke-DataTableColumnReorder.ps1)" time="0.0353" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Invoke-DuplicateColumnNames.ps1)" time="0.03" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Invoke-ReplaceSQLTags.ps1)" time="0.0269" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Invoke-SqlAgentJobSync.ps1)" time="0.0302" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Invoke-SQLCmd_DataTable.ps1)" time="0.0222" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Invoke-SqlCmdWithCache.ps1)" time="0.0228" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Join-Object.ps1)" time="0.0271" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/New-AlterSQLTableStatementFromColumn.ps1)" time="0.0219" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/New-DataImportReport.ps1)" time="0.0257" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/New-SQLImportValuesStatementFromDataTable.ps1)" time="0.0237" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/New-SQLTableStatementFromDataTable.ps1)" time="0.024" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Open-CrystalReport.ps1)" time="0.0238" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Out-DataTable.ps1)" time="0.0272" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Request-JobStatus.ps1)" time="0.0283" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/SetDataImportSQLMetadata.ps1)" time="0.0269" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Start-MySQLQueryJob.ps1)" time="0.0203" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/Public/Write-DataTable.ps1)" time="0.0209" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/FC_Data.badtests.ps1)" time="0.0216" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Data/FC_Data.psm1)" time="0.0239" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Docker/public/Invoke-DockerImageBuild.ps1)" time="0.0288" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Docker/FC_Docker.psm1)" time="0.0256" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Get-GitAllBranchStatus.ps1)" time="0.0254" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Get-GitBranchesComparedToRemote.ps1)" time="0.0275" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Get-GitBranchesWithChange.ps1)" time="0.0251" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Get-GitBranchStatus.ps1)" time="0.0237" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Get-GitHubRelease.ps1)" time="0.0292" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Get-GitLastCommit.ps1)" time="0.0251" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Get-GitMergeStatus.ps1)" time="0.0216" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Get-GitRemoteRefsToDelete.ps1)" time="0.0207" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Get-GitRepositories.ps1)" time="0.0213" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Invoke-AutoGit.ps1)" time="0.0213" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Invoke-GitFetchForSubDirectories.ps1)" time="0.0198" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Invoke-GitMergeMasterIntoCurrent.ps1)" time="0.0237" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Invoke-GitPushIntoAnotherBranch.ps1)" time="0.023" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Invoke-TortoiseGit.ps1)" time="0.0223" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/New-GitBranch.ps1)" time="0.0208" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/New-GitTrackThisBranchForAutoIntegration.ps1)" time="0.0241" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/New-SSHKey.ps1)" time="0.0228" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Remove-GitBranch.ps1)" time="0.0274" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Set-GitRepositories.ps1)" time="0.0262" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Stop-AutoGit.ps1)" time="0.0237" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Public/Sync-GitRepo.ps1)" time="0.0249" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/FC_Git.psm1)" time="0.0203" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Git/Untitled1.ps1)" time="0.0218" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Log/Private/Get-CallerPreference.ps1)" time="0.0278" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Log/Public/Get-InstalledVoices.ps1)" time="0.023" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Log/Public/Get-LogFormattingOptions.ps1)" time="0.0237" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Log/Public/Get-LogLevel.ps1)" time="0.024" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Log/Public/Get-logTargets.ps1)" time="0.0225" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Log/Public/Set-LogFormattingOptions.ps1)" time="0.0243" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Log/Public/Set-LogLevel.ps1)" time="0.0225" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Log/Public/Set-logTargets.ps1)" time="0.0328" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Log/Public/Set-logTargetWinEvent.ps1)" time="0.023" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Log/Public/Speak.ps1)" time="0.0215" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Log/Public/Write-Log.ps1)" time="0.0273" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Log/FC_Log.psm1)" time="0.0208" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_MicrosoftGraph/Public/Get-AuthToken.ps1)" time="0.0258" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_MicrosoftGraph/Public/Get-BearerAuthenticationHeader.ps1)" time="0.0264" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_MicrosoftGraph/Public/Get-MSGraphRestURL.ps1)" time="0.0226" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_MicrosoftGraph/Public/Get-MyNotebooks.ps1)" time="0.0229" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_MicrosoftGraph/Public/Get-MyOneDriveFiles.ps1)" time="0.0239" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_MicrosoftGraph/Public/Get-MyProfile.ps1)" time="0.0232" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_MicrosoftGraph/Public/Set-ApplicationID.ps1)" time="0.0248" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_MicrosoftGraph/FC_MicrosoftGraph.psm1)" time="0.0219" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_Misc/FC_Misc.psm1)" time="0.0254" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_SysAdmin/public/Get-FileMetaData.ps1)" time="0.0248" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_SysAdmin/public/Invoke-IncrementalFileBackup - Copy (2).ps1)" time="0.027" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_SysAdmin/public/Invoke-IncrementalFileBackup - Copy.ps1)" time="0.0272" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_SysAdmin/public/Invoke-IncrementalFileBackup.ps1)" time="0.0306" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_SysAdmin/public/Test-HashFiles.ps1)" time="0.0271" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_SysAdmin/FC_SysAdmin.psm1)" time="0.0245" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Abandon-TFSPullRequest.ps1)" time="0.0242" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-CurrentIteration.ps1)" time="0.0238" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-DeploymentGroup.ps1)" time="0.0259" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-DeploymentGroupTargets.ps1)" time="0.0246" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSIterations.ps1)" time="0.0217" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSProjects.ps1)" time="0.0242" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSPullRequests.ps1)" time="0.0221" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSPullRequestThreads.ps1)" time="0.0255" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSRepositories.ps1)" time="0.0237" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSRestURL_Collection.ps1)" time="0.023" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSRestURL_Team.ps1)" time="0.0231" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSRestURL.ps1)" time="0.0245" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSTeams.ps1)" time="0.0236" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSUserID.ps1)" time="0.0257" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSWIQLQueryResults.ps1)" time="0.0259" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSWorkItem.ps1)" time="0.0332" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSWorkItemRelationshipTypes.ps1)" time="0.0283" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Get-TFSWorkItemTypes.ps1)" time="0.0323" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Invoke-AzureDevops_LinkWIQLResultsToParentWorkItem.ps1)" time="0.0332" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Invoke-CodeSearch.ps1)" time="0.0342" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Invoke-TFSPullRequestVote.ps1)" time="0.0278" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/New-TFSPullRequest.ps1)" time="0.0266" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/New-TFSPullRequestComment.ps1)" time="0.0257" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/New-TFSPullRequestThread.ps1)" time="0.0358" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/New-TFSWorkItem.ps1)" time="0.0367" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/New-TFSWorkItemBody.ps1)" time="0.0317" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Set-TFSAPIVersion.ps1)" time="0.0255" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Set-TFSBaseURL.ps1)" time="0.0301" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Set-TFSCollection.ps1)" time="0.0238" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Set-TFSPersonalAccessToken.ps1)" time="0.0268" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Set-TFSProject.ps1)" time="0.0282" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Set-TFSWITFieldDefinition.ps1)" time="0.0259" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/Public/Update-TFSWorkItem.ps1)" time="0.0314" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/FC_TFS/FC_TFS.psm1)" time="0.0235" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Tests/Build.Tests.ps1)" time="0.0264" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Tests/FC_Core.Tests.ps1)" time="0.0222" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Tests/FC_Git.Tests.ps1)" time="0.0277" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Tests/FC_Log.Tests.ps1)" time="0.0258" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Tests/FC_SysAdmin.Tests.ps1)" time="0.0243" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Tests/FC_TFS.Tests.ps1)" time="0.0168" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Tests/TestRunner.ps1)" time="0.0177" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Tests/Untitled1.ps1)" time="0.0183" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Build-ALLFCModules.ps1)" time="0.0162" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/BuildFunctions.ps1)" time="0.0161" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Deploy-ModulesToUserProfile.ps1)" time="0.0197" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Publish-ALLFCModules.ps1)" time="0.0149" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Publish-FCModules.ps1)" time="0.0168" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="Files are proper PS" name="Script code is valid.Validate script code.Files are proper PS(/tests/Modules/Untitled1.ps1)" time="0.0174" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="/tests/Modules/Tests/FC_Core.Tests.ps1" executed="True" result="Success" success="True" time="0.474" asserts="0" description="/tests/Modules/Tests/FC_Core.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="ConvertTo-HashTable" executed="True" result="Success" success="True" time="0.2751" asserts="0" description="ConvertTo-HashTable">
+            <results>
+              <test-suite type="TestFixture" name="ConvertTo-HashTable.Parameter validation" executed="True" result="Success" success="True" time="0.2673" asserts="0" description="ConvertTo-HashTable.Parameter validation">
+                <results>
+                  <test-case description="Single File item" name="ConvertTo-HashTable.Parameter validation.Single File item" time="0.2383" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Multiple File item" name="ConvertTo-HashTable.Parameter validation.Multiple File item" time="0.0203" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="/tests/Modules/Tests/FC_Git.Tests.ps1" executed="True" result="Failure" success="False" time="0.8454" asserts="0" description="/tests/Modules/Tests/FC_Git.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Sync-GitRepo" executed="True" result="Failure" success="False" time="0.2605" asserts="0" description="Sync-GitRepo">
+            <results>
+              <test-suite type="TestFixture" name="Sync-GitRepo.Parameter Validation" executed="True" result="Failure" success="False" time="0.2434" asserts="0" description="Sync-GitRepo.Parameter Validation">
+                <results>
+                  <test-case description="Null Inputs throws error" name="Sync-GitRepo.Parameter Validation.Null Inputs throws error" time="0.123" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>Expected an exception, with message 'Parameter set cannot be resolved using the specified named parameters.' to be thrown, but the message was 'Parameter set cannot be resolved using the specified named parameters. One or more parameters issued cannot be used together or an insufficient number of parameters were provided.'. from /tests/Modules/Tests/FC_Git.Tests.ps1:11 char:29
+    +             $scriptBlock = {Sync-GitRepo -ErrorAction Stop }
+    +                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+at $scriptBlock | Should -throw "Parameter set cannot be resolved using the specified named parameters.", /tests/Modules/Tests/FC_Git.Tests.ps1:12</message>
+                      <stack-trace>at &lt;ScriptBlock&gt;, /tests/Modules/Tests/FC_Git.Tests.ps1:12</stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case description="Not on master, fails when checking master out" name="Sync-GitRepo.Parameter Validation.Not on master, fails when checking master out" time="0.1099" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>CommandNotFoundException: Could not find Command Get-GitBranch</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Get-GitLastCommit" executed="True" result="Failure" success="False" time="0.3662" asserts="0" description="Get-GitLastCommit">
+            <results>
+              <test-suite type="TestFixture" name="Get-GitLastCommit.Parameter Validation" executed="True" result="Failure" success="False" time="0.0889" asserts="0" description="Get-GitLastCommit.Parameter Validation">
+                <results>
+                  <test-case description="Gets Commit From Current Directory" name="Get-GitLastCommit.Parameter Validation.Gets Commit From Current Directory" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Gets Commit From Current Directory -masterbranch" name="Get-GitLastCommit.Parameter Validation.Gets Commit From Current Directory -masterbranch" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Gets Commit From specific Directory" name="Get-GitLastCommit.Parameter Validation.Gets Commit From specific Directory" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="/tests/Modules/Tests/FC_Log.Tests.ps1" executed="True" result="Failure" success="False" time="0.8796" asserts="0" description="/tests/Modules/Tests/FC_Log.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Write-Log to file" executed="True" result="Success" success="True" time="0.4731" asserts="0" description="Write-Log to file">
+            <results>
+              <test-suite type="TestFixture" name="Write-Log to file.Single File" executed="True" result="Success" success="True" time="0.1479" asserts="0" description="Write-Log to file.Single File">
+                <results>
+                  <test-case description="Test file" name="Write-Log to file.Single File.Test file" time="0.1259" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Write-Log to file.Multiple Files" executed="True" result="Success" success="True" time="0.2313" asserts="0" description="Write-Log to file.Multiple Files">
+                <results>
+                  <test-case description="File 1" name="Write-Log to file.Multiple Files.File 1" time="0.0349" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="File 2" name="Write-Log to file.Multiple Files.File 2" time="0.0303" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Write-Log to file.Create Folder if it does not exist" executed="True" result="Success" success="True" time="0.3177" asserts="0" description="Write-Log to file.Create Folder if it does not exist">
+                <results>
+                  <test-case description="File 1" name="Write-Log to file.Create Folder if it does not exist.File 1" time="0.0424" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="File 2" name="Write-Log to file.Create Folder if it does not exist.File 2" time="0.0266" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Write-Log to file.Multiple messages" executed="True" result="Success" success="True" time="0.4565" asserts="0" description="Write-Log to file.Multiple messages">
+                <results>
+                  <test-case description="File 1" name="Write-Log to file.Multiple messages.File 1" time="0.0623" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="File 2" name="Write-Log to file.Multiple messages.File 2" time="0.0417" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Set-LogLevel" executed="True" result="Failure" success="False" time="0.5254" asserts="0" description="Set-LogLevel">
+            <results>
+              <test-suite type="TestFixture" name="Set-LogLevel.Valid input" executed="True" result="Failure" success="False" time="0.0383" asserts="0" description="Set-LogLevel.Valid input">
+                <results>
+                  <test-case description="Debug" name="Set-LogLevel.Valid input.Debug" time="0.027" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>ParameterBindingException: Parameter set cannot be resolved using the specified named parameters. One or more parameters issued cannot be used together or an insufficient number of parameters were provided.</message>
+                      <stack-trace>at &lt;ScriptBlock&gt;, /tests/Modules/Tests/FC_Log.Tests.ps1:72</stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="/tests/Modules/Tests/FC_SysAdmin.Tests.ps1" executed="True" result="Failure" success="False" time="0.5744" asserts="0" description="/tests/Modules/Tests/FC_SysAdmin.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Get-FileMetadata" executed="True" result="Failure" success="False" time="0.1495" asserts="0" description="Get-FileMetadata">
+            <results>
+              <test-suite type="TestFixture" name="Get-FileMetadata.Parameter validation" executed="True" result="Success" success="True" time="0.0211" asserts="0" description="Get-FileMetadata.Parameter validation">
+                <results>
+                  <test-case description="Null Inputs" name="Get-FileMetadata.Parameter validation.Null Inputs" time="0.0096" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Get-FileMetadata.sdg" executed="True" result="Failure" success="False" time="0.1392" asserts="0" description="Get-FileMetadata.sdg">
+                <results>
+                  <test-case description="Test my test (Does my mocked COM object have the same methods as the real deal" name="Get-FileMetadata.sdg.Test my test (Does my mocked COM object have the same methods as the real deal" time="0.0173" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>ParameterBindingException: A parameter cannot be found that matches parameter name 'ComObject'.</message>
+                      <stack-trace>at &lt;ScriptBlock&gt;, /tests/Modules/Tests/FC_SysAdmin.Tests.ps1:35</stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case description="tv2" name="Get-FileMetadata.sdg.tv2" time="0.0908" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>RuntimeException: Method invocation failed because [System.Collections.Hashtable] does not contain a method named 'items'.</message>
+                      <stack-trace>at Get-FileMetaData, /tests/Modules/FC_SysAdmin/public/Get-FileMetaData.ps1:77
+at &lt;ScriptBlock&gt;, /tests/Modules/Tests/FC_SysAdmin.Tests.ps1:83</stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Invoke-IncrementalFileBackup" executed="True" result="Failure" success="False" time="0.3644" asserts="0" description="Invoke-IncrementalFileBackup">
+            <results>
+              <test-suite type="TestFixture" name="Invoke-IncrementalFileBackup.Parameter Validation" executed="True" result="Failure" success="False" time="0.2042" asserts="0" description="Invoke-IncrementalFileBackup.Parameter Validation">
+                <results>
+                  <test-case description="Null Inputs -eq null out" name="Invoke-IncrementalFileBackup.Parameter Validation.Null Inputs -eq null out" time="0.1913" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>CommandNotFoundException: The term 'Get-JobPrefix' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.</message>
+                      <stack-trace>at Invoke-IncrementalFileBackup, /tests/Modules/FC_SysAdmin/public/Invoke-IncrementalFileBackup.ps1:129
+at &lt;ScriptBlock&gt;, /tests/Modules/Tests/FC_SysAdmin.Tests.ps1:90</stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="/tests/Modules/Tests/FC_TFS.Tests.ps1" executed="True" result="Failure" success="False" time="85.4138" asserts="0" description="/tests/Modules/Tests/FC_TFS.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Get-TFSRestURL_Team" executed="True" result="Failure" success="False" time="0.1101" asserts="0" description="Get-TFSRestURL_Team">
+            <results>
+              <test-suite type="TestFixture" name="Get-TFSRestURL_Team.Parameter Validation" executed="True" result="Failure" success="False" time="0.0837" asserts="0" description="Get-TFSRestURL_Team.Parameter Validation">
+                <results>
+                  <test-case description="No team results in error" name="Get-TFSRestURL_Team.Parameter Validation.No team results in error" time="0.0284" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>Expected an exception, with message 'invalid teamName' to be thrown, but no exception was thrown.
+at $scriptBlock | should -throw "invalid teamName", /tests/Modules/Tests/FC_TFS.Tests.ps1:8</message>
+                      <stack-trace>at &lt;ScriptBlock&gt;, /tests/Modules/Tests/FC_TFS.Tests.ps1:8</stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case description="Do not set the script variables results in $null" name="Get-TFSRestURL_Team.Parameter Validation.Do not set the script variables results in $null" time="0.0126" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Only set the base URL results in $null" name="Get-TFSRestURL_Team.Parameter Validation.Only set the base URL results in $null" time="0.0096" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Only set the TFS collection results in $null" name="Get-TFSRestURL_Team.Parameter Validation.Only set the TFS collection results in $null" time="0.0096" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Only set the project results in $null" name="Get-TFSRestURL_Team.Parameter Validation.Only set the project results in $null" time="0.0103" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Get-TFSRestURL_Team.Valid Parameters" executed="True" result="Success" success="True" time="0.0995" asserts="0" description="Get-TFSRestURL_Team.Valid Parameters">
+                <results>
+                  <test-case description="Valid setup returns valid team URL" name="Get-TFSRestURL_Team.Valid Parameters.Valid setup returns valid team URL" time="0.0071" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Get-TFSIterations" executed="True" result="Failure" success="False" time="84.9084" asserts="0" description="Get-TFSIterations">
+            <results>
+              <test-suite type="TestFixture" name="Get-TFSIterations.Parameter Validation" executed="True" result="Failure" success="False" time="84.7871" asserts="0" description="Get-TFSIterations.Parameter Validation">
+                <results>
+                  <test-case description="Did not perform setup will result in error" name="Get-TFSIterations.Parameter Validation.Did not perform setup will result in error" time="84.776" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>Expected an exception, with message 'Could not get the Base TFS URL. Ensure that you have called Set-TFSBaseURL, Set-TFSCollection and Set-TFSProject' to be thrown, but the message was 'Connection refused'. from /tests/Modules/FC_TFS/public/Get-TFSIterations.ps1:47 char:13
+    + $response = Invoke-RestMethod -UseDefaultCredentials -uri $fullURL -M …
+    +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+at $scriptBlock | should -throw "Could not get the Base TFS URL. Ensure that you have called Set-TFSBaseURL, Set-TFSCollection and Set-TFSProject", /tests/Modules/Tests/FC_TFS.Tests.ps1:42</message>
+                      <stack-trace>at &lt;ScriptBlock&gt;, /tests/Modules/Tests/FC_TFS.Tests.ps1:42</stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="ErrorAction" executed="True" result="Failure" success="False" time="84.9674" asserts="0" description="ErrorAction">
+            <results>
+              <test-suite type="TestFixture" name="ErrorAction.Testing different methods" executed="True" result="Failure" success="False" time="0.0514" asserts="0" description="ErrorAction.Testing different methods">
+                <results>
+                  <test-case description="Write-Log using local module" name="ErrorAction.Testing different methods.Write-Log using local module" time="0.0233" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>Expected an exception, to be thrown, but no exception was thrown.
+at $scriptBlock | should -throw, /tests/Modules/Tests/FC_TFS.Tests.ps1:51</message>
+                      <stack-trace>at &lt;ScriptBlock&gt;, /tests/Modules/Tests/FC_TFS.Tests.ps1:51</stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case description="throw" name="ErrorAction.Testing different methods.throw" time="0.01" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Write-Error" name="ErrorAction.Testing different methods.Write-Error" time="0.0073" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
