@@ -15,7 +15,6 @@ RUN dotnet publish "/src/ExtentReportsDotNetCLI/ExtentReportsDotNetCLI/ExtentRep
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-#ENTRYPOINT ["dotnet", "ExtentReportsDotNetCLI.dll"]
+ENTRYPOINT ["dotnet", "/app/ExtentReportsDotNetCLI.dll"]
 
 VOLUME [ "/test" ]
-CMD "dotnet /app/ExtentReportsDotNetCLI.dll -i /test/PesterResults.xml -o /test/Results"

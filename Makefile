@@ -27,4 +27,4 @@ build:
 	docker build -t $(REGISTRY_NAME)$(REPOSITORY_NAME)$(IMAGE_NAME)$(TAG) .
 
 test: build
-	docker run --rm -w /test -v $${PWD}:/test $(REGISTRY_NAME)$(REPOSITORY_NAME)$(IMAGE_NAME)$(TAG)
+	docker run --rm -w /test -v $${PWD}:/test $(REGISTRY_NAME)$(REPOSITORY_NAME)$(IMAGE_NAME)$(TAG) -i /test/PesterResults.xml -o /test/Results/
