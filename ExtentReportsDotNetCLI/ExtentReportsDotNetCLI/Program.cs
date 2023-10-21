@@ -93,7 +93,7 @@ namespace AventStack.ExtentReports.CLI
         {
             _logger.WriteLine(LoggingLevel.Normal, $"Parsing test runner result file '{testResultsFilePath}' ...");
 
-            // if a single report is required for each test results file (ie, no merges): 
+            // if a single report is required for each test results file (ie, no merges):
             // must instantiate every time to clear pre-existing data
             if (!merge)
             {
@@ -123,12 +123,12 @@ namespace AventStack.ExtentReports.CLI
                 _logger.WriteLine(LoggingLevel.Normal, $"The html report will be output to the folder '{output}'.");
             }
 
-            if (Reporters.Contains("v3html"))
-            {
-                var output = Path.Combine(path, "index.html");
-                extent.AttachReporter(new ExtentV3HtmlReporter(output));
-                _logger.WriteLine(LoggingLevel.Normal, $"The v3html report will be output to '{output}'.");
-            }
+            //if (Reporters.Contains("v3html"))
+            //{
+            //    var output = Path.Combine(path, "index.html");
+            //    extent.AttachReporter(new ExtentV3HtmlReporter(output));
+            //    _logger.WriteLine(LoggingLevel.Normal, $"The v3html report will be output to '{output}'.");
+            //}
         }
     }
 }
